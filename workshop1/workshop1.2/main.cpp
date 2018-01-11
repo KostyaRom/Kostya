@@ -18,12 +18,8 @@ void initialization(sf::ConvexShape &pointer)
     pointer.setFillColor(sf::Color(255, 255, 0));
     pointer.setOutlineThickness(3);
     pointer.setOutlineColor(sf::Color(0, 0, 0));
-
     pointer.setPointCount(7);
-    pointer.setRotation(0);
-    pointer.setOrigin({0, 0});
     pointer.setScale(-1, 1);
-
     pointer.setPoint(0, {0, -40});
     pointer.setPoint(1, {0, -20});
     pointer.setPoint(2, {50, -20});
